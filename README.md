@@ -4,7 +4,7 @@
 
   images => Array of array (2D)  having the name, city and date_time 
 
-  city_groups => Hash of (key => values) here the key is the city and the value is (name, city and date_time)
+  city_groups => Hash of (key => values) Here the key is the city and the value is (name, city and date_time)
 
   updated_names => Array of having the new and updated name according to the requirements
 
@@ -27,6 +27,7 @@ input_string = <<~EOS
   g.jpg, Krakow, 2016-02-29 22:13:11
 EOS
 
-# How to call  solution function and check the result by using puts
+# How to call  the solution function and check the result by using puts
 result = solution(input_string)
+
 puts result
