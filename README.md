@@ -1,8 +1,11 @@
 1- The method solution is responsible for handling the problem's solution 
 
   name_lines = s.strip.split("\n")  => New lines of the string by splitting via a new line
+
   images => Array of array (2D)  having the name, city and date_time 
+
   city_groups => Hash of (key => values) here the key is the city and the value is (name, city and date_time)
+
   updated_names => Array of having the new and updated name according to the requirements
 
 Example:
